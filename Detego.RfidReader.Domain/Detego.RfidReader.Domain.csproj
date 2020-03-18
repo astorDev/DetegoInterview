@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Detego.RfidReader.Protocol\Detego.RfidReader.Protocol.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="RfidReader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\RfidReader.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>

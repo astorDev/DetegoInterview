@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Detego.RfidReader.Domain\Detego.RfidReader.Domain.csproj" />
+      <ProjectReference Include="..\Detego.RfidReader.Protocol\Detego.RfidReader.Protocol.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="RfidReader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\RfidReader.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>

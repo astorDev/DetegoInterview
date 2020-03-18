@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FakeItEasy" Version="6.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="3.0.3" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+        <PackageReference Include="MSTest.TestAdapter" Version="1.4.0" />
+        <PackageReference Include="MSTest.TestFramework" Version="1.4.0" />
+        <PackageReference Include="coverlet.collector" Version="1.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Detego.RfidReader.WebApi\Detego.RfidReader.WebApi.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="RfidReader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\RfidReader.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
