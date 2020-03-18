@@ -1,10 +1,8 @@
 using System.Linq;
-using System.Threading.Tasks;
 using Detego.RfidReader.Domain;
 using Detego.RfidReader.Protocol;
 using Detego.RfidReader.Protocol.Models;
 using Microsoft.AspNetCore.Mvc;
-using Rfid;
 
 namespace Detego.RfidReader.WebApi.Controllers
 {
